@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', sans-serif;
+}
+.fundo{
+    background-image: linear-gradient(20deg,rgb(182, 106, 205), rgb(120, 20, 220));
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(214, 212, 212, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    border: 3px solid rgb(120, 20, 220);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.6rem  rgb(120, 20, 220);
+}
+
+h1 {
+    color: rgb(120, 20, 220);
+    letter-spacing: 0.3rem;
+}
+
+.botao{
+    width: 3.12rem;
+    height: 3.12rem;
+    font-size: 1.56rem;
+    cursor: pointer;
+    margin: 0.2rem;
+    background-color: rgb(190, 134, 212);
+    border: none;
+    color: #fff;
+    border-radius: 0.8rem;
+}
+.botao:hover{
+    background-color: rgba(162, 16, 235, 0.715);
+}
+#resultado{
+    background-color: white;
+    width: 13.2rem;
+    height: 1.87rem;
+    margin: 0.35rem;
+    font-size: 1.56rem;
+    color: rgb(120, 20, 220);
+    text-align: right;
+    padding: 0.35rem;
+    border: 1px solid rgb(182, 106, 205);
+    border-radius: 0.5rem;
+}
+
+#autor, a {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fdfdfd83
+}
+
+p {
+    margin-left: 5px;
+    color: rgb(120, 20, 220);
+}
+
+p:hover {
+    color: rgb(182, 106, 205);
+}
